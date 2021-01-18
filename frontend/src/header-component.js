@@ -1,15 +1,6 @@
 import React from "react";
 import './header-component.css';
-
-const iPhoneXorNewerData = {
-  x941: "https://anima-uploads.s3.amazonaws.com/projects/6003bda18e67c2318c5e088e/releases/6003bedd1a17443328fd7f8e/img/9-41@2x.svg",
-  notch: "https://anima-uploads.s3.amazonaws.com/projects/6003bda18e67c2318c5e088e/releases/6003bedd1a17443328fd7f8e/img/notch@2x.svg",
-  mobileSignal: "https://anima-uploads.s3.amazonaws.com/projects/6003bda18e67c2318c5e088e/releases/6003bedd1a17443328fd7f8e/img/mobile-signal@2x.svg",
-  wifi: "https://anima-uploads.s3.amazonaws.com/projects/6003bda18e67c2318c5e088e/releases/6003bedd1a17443328fd7f8e/img/wifi@2x.svg",
-  overlapGroup1: "https://anima-uploads.s3.amazonaws.com/projects/6003bda18e67c2318c5e088e/releases/6003bedd1a17443328fd7f8e/img/rectangle@2x.svg",
-  rectangle: "https://anima-uploads.s3.amazonaws.com/projects/6003bda18e67c2318c5e088e/releases/6003bedd1a17443328fd7f8e/img/rectangle-1@2x.svg",
-  combinedShape: "https://anima-uploads.s3.amazonaws.com/projects/6003bda18e67c2318c5e088e/releases/6003bedd1a17443328fd7f8e/img/combined-shape@2x.svg",
-};
+import NotificationBar from './NotificationBar';
 
 function LightBackground(props) {
   const { vector } = props;
@@ -19,25 +10,6 @@ function LightBackground(props) {
 const LightBackgroundData = {
     vector: "https://anima-uploads.s3.amazonaws.com/projects/6003bda18e67c2318c5e088e/releases/6003bedd1a17443328fd7f8e/img/vector-69@2x.svg",
 };
-
-function IPhoneXorNewer(props) {
-  const { x941, notch, mobileSignal, wifi, overlapGroup1, rectangle, combinedShape } = props;
-
-  return (
-    <div className="i-phone-x-or-newer">
-      <img className="x941" src={x941} alt=""/>
-      <div className="overlap-group">
-        <img className="notch" src={notch} alt=""/>
-        <img className="mobile-signal" src={mobileSignal} alt=""/>
-      </div>
-      <img className="wifi" src={wifi} alt=""/>
-      <div className="overlap-group1" style={{ backgroundImage: `url(${overlapGroup1})` }}>
-        <img className="rectangle" src={rectangle} alt=""/>
-      </div>
-      <img className="combined-shape" src={combinedShape} alt=""/>
-    </div>
-  );
-}
 
 
 function SearchVector(props) {
@@ -53,15 +25,7 @@ const SearchVectorData = {
   
 function Header() {
   return (<>
-  <IPhoneXorNewer
-    x941={iPhoneXorNewerData.x941}
-    notch={iPhoneXorNewerData.notch}
-    mobileSignal={iPhoneXorNewerData.mobileSignal}
-    wifi={iPhoneXorNewerData.wifi}
-    overlapGroup1={iPhoneXorNewerData.overlapGroup1}
-    rectangle={iPhoneXorNewerData.rectangle}
-    combinedShape={iPhoneXorNewerData.combinedShape}
-  />
+  <NotificationBar />
   <SearchVector vector={SearchVectorData.vector} />
   {/* Omni Title */}
   <svg className="omni-group" width="56" height="17" viewBox="0 0 56 17" fill="none" xmlns="http://www.w3.org/2000/svg">

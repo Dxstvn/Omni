@@ -18,7 +18,7 @@ module.exports = {
          })
     ],
     resolve: {
-        extensions: ['.js', '.jsx']
+        extensions: ['.js', '.jsx', '.gif']
     },
     module: {
         rules: [{
@@ -40,6 +40,15 @@ module.exports = {
                 test: /\.svg$/,
                 use: ['@svgr/webpack'],
             },
+            {
+                test: /\.(jpe?g|png|gif)$/i,
+                loader: 'file-loader',
+                options: {
+                    publicPath: 'static/assets',
+                    outputPath: 'assets/',
+                    name: '[name].[ext]'
+                }
+            }
         ]
     },
     output: {

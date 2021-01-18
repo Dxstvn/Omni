@@ -23,5 +23,5 @@ from api.views import (
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', index),
-    path('other/', index)
+    path('home/', index)
 ]

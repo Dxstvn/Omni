@@ -1,0 +1,94 @@
+.Main {
+  background-color:black;
+  width: 375px;
+  height: 812px;
+}
+
+.home-gif {
+  height: 737px;
+  width: 375px;
+  display: flex;
+  position: absolute;
+}
+
+.vector-text {
+  flex-direction: row;
+  display: flex;
+  position: relative;
+  z-index: 9998!important;
+}
+
+.spaced-vector-text {
+  flex-direction: row;
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  z-index: 9998!important;
+  width: 60px;
+}
+
+.screen {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  height: 737px;
+  width: 375px;
+
+  &-omni-logo {
+    position: absolute;
+    top: 395px;
+    left: 280px;
+  }
+
+  &-text {
+    position: absolute;
+    color: white;
+    font-family: "Source Code Pro", Helvetica, Arial, serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0px;
+    min-height: 54px;
+    text-align: right;
+    width: 314px;
+    top: 460px;
+    left: 35px;
+  }
+
+  &-sign-up {
+    position: absolute;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 38px;
+    width: 322px;
+    top: 622px;
+    left: 30px;
+  }
+
+  &-sign-up-box {
+    position: absolute;
+    display: flex;
+    height: 38px;
+    width: 322px;
+  }
+
+  &-log-in {
+    position: absolute;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 38px;
+    width: 322px;
+    top: 672px;
+    left: 30px;
+  }
+
+  &-log-in-box {
+    position: absolute;
+    display: flex;
+    height: 38px;
+    width: 322px;
+  }
+
+}
