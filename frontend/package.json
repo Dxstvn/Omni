@@ -19,7 +19,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "watch": "webpack --watch",
-    "buildWebpack": "webpack"
+    "build-webpack": "webpack",
+    "watch-scss": "sass --watch sass:src"
   },
   "eslintConfig": {
     "extends": [
