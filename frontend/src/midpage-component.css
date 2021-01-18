@@ -1,0 +1,57 @@
+.ps5-pic {
+    position: absolute;
+    width: 375px;
+    height: 372px;
+    left: 0px;
+    top: 97px;
+}
+.sony-group {
+    position: absolute;
+    height: 27.740245819091797px;
+    width: 158.00991821289062px;
+    left: 21.43994140625px;
+    top: 284.459716796875px;
+    border-radius: 0px;
+}
+.plus {
+    position: absolute;
+    height: 13.6300048828125px;
+    width: 13.6300048828125px;
+    left: 185.8701171875px;
+    top: 277.739990234375px;
+    border-radius: 0px;
+}
+
+@font-face {
+  font-family: "Helvetica Neue-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.animaapp.com/HelveticaNeue-Regular") format("truetype");
+}
+
+.helveticaneue-regular-normal-white-19px {
+  color: white;
+  font-family: "Helvetica Neue-Regular", Helvetica, Arial, serif;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+}
+.play-has-no-limits {
+  letter-spacing: 0px;
+  min-height: 23px;
+  min-width: 163px;
+  text-align: left;
+}
+.helveticaneue-regular-normal-white-16px {
+  color: white;
+  font-family: "Helvetica Neue-Regular", Helvetica, Arial, serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+.text-1 {
+  letter-spacing: 0px;
+  min-height: 38px;
+  min-width: 310px;
+  text-align: left;
+}

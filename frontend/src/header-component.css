@@ -1,0 +1,90 @@
+.light-background-vector {
+    width: 375px;
+    height: 136px; 
+}
+.combined-shape {
+    height: 4px;
+    margin-top: 2px;
+    width: 2px;
+}
+.i-phone-x-or-newer {
+    align-items: center;
+    display: flex;
+    height: 44px;
+    overflow: hidden;
+    padding: 0 14.3px;
+    width: 375px;
+}
+.mobile-signal {
+    height: 12px;
+    left: 215px;
+    position: absolute;
+    top: 19px;
+    width: 18px;
+}
+.notch {
+    height: 30px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 219px;
+}
+.overlap-group {
+    align-self: flex-start;
+    height: 31px;
+    margin-left: 15px;
+    margin-top: -2px;
+    position: relative;
+    width: 233px;
+}
+.overlap-group1 {
+    align-items: flex-end;
+    background-size: 100% 100%;
+    display: flex;
+    height: 12px;
+    margin-left: 4px;
+    margin-top: 2px;
+    min-width: 22px;
+    padding: 2px 2px;
+}
+.rectangle {
+    height: 8px;
+    width: 18px;
+}
+.wifi {
+    height: 12px;
+    margin-left: 4px;
+    margin-top: 1.63px;
+    width: 16px;
+}
+.x941 {
+    height: 12px;
+    margin-top: 1.42px;
+    width: 29px;
+}
+.search-vector {
+    position: absolute;
+    height: 16.9299373626709px;
+    width: 15.559985160827637px;
+    left: 20.83984375px;
+    top: 62.35009765625px;
+    border-radius: 0px;
+
+  }
+.omni-group {
+    position: absolute;
+    height: 16.5px;
+    width: 55.439998626708984px;
+    left: 160px;
+    top: 62px;
+    border-radius: 0px;
+}
+
+.person-vector {
+    position: absolute;
+    height: 19.300003051757812px;
+    width: 19.300003051757812px;
+    left: 337.7001953125px;
+    top: 60.499755859375px;
+    border-radius: 0px;
+}
