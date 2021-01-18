@@ -3,12 +3,19 @@ const path = require('path');
 const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 const {WebpackManifestPlugin} = require('webpack-manifest-plugin');
 
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+
+
 module.exports = {
     mode: 'development',
-    entry: './src/index.js',
+    entry: './src/main.js',
     plugins: [
         new CleanWebpackPlugin(),
         new WebpackManifestPlugin(),
+        new HtmlWebpackPlugin({
+            template: "./public/index_other.html",
+            filename: "../templates/index.html"
+         })
     ],
     resolve: {
         extensions: ['.js', '.jsx']
@@ -26,9 +33,13 @@ module.exports = {
                 use: ['style-loader', 'css-loader'],
             },
             {
-                test: /\.svg$/,
+                test: /\.inline.svg$/,
                 loader: 'svg-inline-loader'
-            }
+            },
+            {
+                test: /\.svg$/,
+                use: ['@svgr/webpack'],
+            },
         ]
     },
     output: {
