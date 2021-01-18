@@ -47,4 +47,9 @@ module.exports = {
         filename: '[name].[contenthash].js',
         path: path.resolve(__dirname, 'static'),
     },
+    optimization: {
+        splitChunks: {
+            chunks: "all"
+        }
+    }
 }
