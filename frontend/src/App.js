@@ -3,6 +3,7 @@ import './App.css';
 import React, { Component } from 'react';
 // eslint-disable-next-line
 import OtherPage from "./OtherPage"
+// eslint-disable-next-line
 import { BrowserRouter as Router, Switch, Route, Link, Redirect} from "react-router-dom";
 
 export default class App extends Component {
