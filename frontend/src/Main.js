@@ -2,6 +2,9 @@ import './Main.css';
 import NotificationBar from './NotificationBar';
 import React, { Component } from 'react';
 import HomePage from "./HomePage";
+import OtherPage from "./OtherPage";
+import OtherMain from "./othermain";
+import SonyTransition from "./sony-transition-page";
 import homeGif from '../assets/rpreplay-final1610763893-1@1x';
 // eslint-disable-next-line
 import { BrowserRouter as Router, Switch, Route, Link, Redirect} from "react-router-dom";
@@ -74,8 +77,9 @@ export default class Main extends Component {
     return (<Router>
       <Switch>
         <Route exact path='/'>{this.state.home}</Route>
-        <Route path='/home' component={HomePage}/>
-        <Route path='/signup' component={HomePage}/>
+        <Route path='/home' component={OtherMain}/>
+        <Route path='/signup' component={OtherPage}/>
+        <Route path='/sony' component={SonyTransition}/>
       </Switch>
     </Router>);
   }

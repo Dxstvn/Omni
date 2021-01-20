@@ -24,5 +24,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', index),
     path('home/', index),
-    path('signup/', index)
+    path('signup/', index),
+    path('sony/', index),
 ]
