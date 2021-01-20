@@ -55,10 +55,10 @@ export default class Main extends Component {
             <p className='screen-text'>
                 Lorem ipsum dolor sit amet,  consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
             </p>
-            <div className='screen-sign-up'>
+            <a className='screen-sign-up' href={'/signup'}>
                 {signUpText}
                 <img className='screen-sign-up-box' src={"https://anima-uploads.s3.amazonaws.com/projects/6003bcb01a17443328fd7f8d/releases/60052d05bc4afa862d2087ee/img/vector-5@2x.svg"} />
-            </div>
+            </a>
             <a className='screen-log-in' href={'/home'}>
                 {logInText}
                 <svg className='screen-log-in-box' src={"https://anima-uploads.s3.amazonaws.com/projects/6003bcb01a17443328fd7f8d/releases/60052d05bc4afa862d2087ee/img/vector-5@2x.svg"} />
@@ -75,6 +75,7 @@ export default class Main extends Component {
       <Switch>
         <Route exact path='/'>{this.state.home}</Route>
         <Route path='/home' component={HomePage}/>
+        <Route path='/signup' component={HomePage}/>
       </Switch>
     </Router>);
   }

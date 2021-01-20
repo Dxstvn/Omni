@@ -23,5 +23,6 @@ from api.views import (
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', index),
-    path('home/', index)
+    path('home/', index),
+    path('signup/', index)
 ]
