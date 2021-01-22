@@ -1,0 +1,225 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  box-sizing: border-box;
+}
+.home {
+  align-items: flex-start;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  min-height: 812px;
+  width: 375px;
+}
+.home .combined-shape {
+  height: 4px;
+  margin-top: 2px;
+  width: 2px;
+}
+.home .i-phone-x--rk-default {
+  align-items: flex-start;
+  display: flex;
+  min-width: 375px;
+}
+.home .i-phone-x-or-newer {
+  align-items: center;
+  background-color: black;
+  display: flex;
+  height: 44px;
+  padding: 0 14.3px;
+  width: 375px;
+}
+.home .mobile-signal {
+  height: 12px;
+  left: 215px;
+  position: absolute;
+  top: 19px;
+  width: 18px;
+}
+.home .notch {
+  height: 30px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 219px;
+}
+.home .overlap-group {
+  align-items: center;
+  background-size: 100% 100%;
+  display: flex;
+  height: 38px;
+  justify-content: flex-end;
+  left: 26px;
+  min-width: 322px;
+  padding: 13.4px 129.3px;
+  position: absolute;
+  top: 623px;
+}
+.home .overlap-group1 {
+  height: 11px;
+  left: 169px;
+  position: absolute;
+  top: 689px;
+  width: 18px;
+}
+.home .overlap-group2 {
+  align-items: flex-end;
+  background-size: 100% 100%;
+  display: flex;
+  height: 12px;
+  margin-left: 4px;
+  margin-top: 2px;
+  min-width: 22px;
+  padding: 2px 2px;
+}
+.home .overlap-group3 {
+  align-self: flex-start;
+  height: 31px;
+  margin-left: 15px;
+  margin-top: -2px;
+  position: relative;
+  width: 233px;
+}
+.home .overlap-group4 {
+  height: 768px;
+  position: relative;
+  width: 375px;
+}
+.home .rectangle {
+  height: 8px;
+  width: 18px;
+}
+.home .rp-replay--10763893-1 {
+  height: 737px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 375px;
+}
+.home .text-1 {
+  left: 36px;
+  letter-spacing: 0px;
+  position: absolute;
+  text-align: right;
+  top: 470px;
+  width: 314px;
+}
+.home .vector {
+  height: 381px;
+  left: 0px;
+  position: absolute;
+  top: 387px;
+  width: 375px;
+}
+.home .vector-1 {
+  height: 27px;
+  left: 282px;
+  position: absolute;
+  top: 394px;
+  width: 19px;
+}
+.home .vector-10 {
+  height: 11px;
+  margin-top: 0.1px;
+  width: 9px;
+}
+.home .vector-11 {
+  height: 10px;
+  left: 161px;
+  position: absolute;
+  top: 690px;
+  width: 8px;
+}
+.home .vector-12 {
+  height: 11px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 9px;
+}
+.home .vector-13 {
+  height: 11px;
+  left: 9px;
+  position: absolute;
+  top: 0px;
+  width: 9px;
+}
+.home .vector-14 {
+  height: 10px;
+  left: 197px;
+  position: absolute;
+  top: 690px;
+  width: 8px;
+}
+.home .vector-15 {
+  height: 10px;
+  left: 206px;
+  position: absolute;
+  top: 690px;
+  width: 8px;
+}
+.home .vector-2 {
+  height: 27px;
+  left: 306px;
+  position: absolute;
+  top: 394px;
+  width: 19px;
+}
+.home .vector-3 {
+  height: 27px;
+  left: 331px;
+  position: absolute;
+  top: 394px;
+  width: 17px;
+}
+.home .vector-4 {
+  height: 27px;
+  left: 260px;
+  position: absolute;
+  top: 394px;
+  width: 17px;
+}
+.home .vector-5 {
+  height: 11px;
+  margin-top: 0.13px;
+  width: 8px;
+}
+.home .vector-6 {
+  height: 11px;
+  margin-top: 0.1px;
+  width: 8px;
+}
+.home .vector-7 {
+  height: 11px;
+  margin-top: 0.12px;
+  width: 8px;
+}
+.home .vector-8 {
+  height: 11px;
+  margin-left: 1px;
+  margin-top: 0.09px;
+  width: 8px;
+}
+.home .vector-9 {
+  align-self: flex-end;
+  height: 11px;
+  margin-left: 10px;
+  width: 8px;
+}
+.home .wifi {
+  height: 12px;
+  margin-left: 4px;
+  margin-top: 1.63px;
+  width: 16px;
+}
+.home .x941 {
+  height: 12px;
+  margin-top: 1.42px;
+  width: 29px;
+}
+.sourcecodepro-normal-white-14px {
+  color: white;
+  font-family: "Source Code Pro", Helvetica, Arial, serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}

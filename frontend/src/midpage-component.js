@@ -1,30 +1,9 @@
 import React from "react";
 import './midpage-component.css';
+import Info from './InfoIcon-component';
 import ReactPlayer from 'react-player';
 
-function PS5Pic(props) {
-    const { rectangle } = props;
-  
-    return <img className="ps5-pic" src={rectangle} alt="" />;
-  }
-  const PS5PicData = {
-      rectangle: "https://anima-uploads.s3.amazonaws.com/projects/6003bda18e67c2318c5e088e/releases/6003bedd1a17443328fd7f8e/img/rectangle@2x.png", 
-  };
-
-function PlayHasNoLimits(props) {
-    const { playHasNoLimits } = props;
-  
-    return (
-      <div className="play-has-no-limits border-class-1 helveticaneue-regular-normal-white-19px">{playHasNoLimits}</div>
-    );
-  }
-function Text1(props) {
-    const { text1 } = props;
-
-    return (<p className="text-1 border-class-1 helveticaneue-regular-normal-white-16px">
-      {text1}
-    </p>);
-  }
+ 
 function Midpage() {
     return (<>
     {/*Sony*/}
@@ -40,12 +19,13 @@ function Midpage() {
         <path d="M14.5001 7.55005H0.870117" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
         <path d="M7.68018 14.37V0.73999" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
     </svg>
-    <p className="text-1 border-class-1 helveticaneue-regular-normal-white-16px">Play Has No Limits</p>
-    <p>
+    <p className="play-has-no-limits">Play Has No Limits</p>
+    <p className="unleash-new">
         Unleash new gaming possibilities that
         <br />
         you’ve never anticipated with PlayStation 5
     </p>
+    <Info />
     </>)
   }
 

@@ -21,41 +21,35 @@
     top: 277.739990234375px;
     border-radius: 0px;
 }
-
-@font-face {
-  font-family: "Helvetica Neue-Regular";
-  font-style: normal;
-  font-weight: 400;
-  src: url("https://fonts.animaapp.com/HelveticaNeue-Regular") format("truetype");
-}
-
-.helveticaneue-regular-normal-white-19px {
-  color: white;
-  font-family: "Helvetica Neue-Regular", Helvetica, Arial, serif;
-  font-size: 19px;
-  font-style: normal;
-  font-weight: 400;
-}
 .play-has-no-limits {
-  letter-spacing: 0px;
-  min-height: 23px;
-  min-width: 163px;
-  text-align: left;
-}
-.helveticaneue-regular-normal-white-16px {
-  color: white;
-  font-family: "Helvetica Neue-Regular", Helvetica, Arial, serif;
-  font-size: 16px;
+  position: absolute;
+  width: 161px;
+  height: 23px;
+  left: 22px;
+  top: 324.73px;
+
+  font-family: Helvetica Neue;
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 23px;
+  /* identical to box height */
+
+  color: #FFFFFF;
 }
-.text-1 {
-  letter-spacing: 0px;
-  min-height: 38px;
-  min-width: 310px;
-  text-align: left;
+.unleash-new {
+  position: absolute;
+  width: 308px;
+  height: 38px;
+  left: 22px;
+  top: 365.73px;
+
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #FFFFFF;
 }
 
-.player-wrapper {
-    pointer-events: none;
-}
