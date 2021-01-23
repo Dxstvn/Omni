@@ -19,13 +19,17 @@ function IPhoneXorNewer(props) {
       <img className="x941" src={x941} alt=""/>
       <div className="overlap-group">
         <img className="notch" src={notch} alt=""/>
-        <img className="mobile-signal" src={mobileSignal} alt=""/>
       </div>
-      <img className="wifi" src={wifi} alt=""/>
-      <div className="overlap-group1" style={{ backgroundImage: `url(${overlapGroup1})` }}>
-        <img className="rectangle" src={rectangle} alt=""/>
+      <div className="bar-icons row">
+          <img className="signal-bars" src={mobileSignal} alt=""/>
+          <img className="wifi" src={wifi} alt=""/>
+          <div className="battery row">
+              <div className="battery-box" style={{ backgroundImage: `url(${overlapGroup1})` }}>
+                <img className="battery-fill" src={rectangle} alt=""/>
+              </div>
+              <img className="battery-stub" src={combinedShape} alt=""/>
+          </div>
       </div>
-      <img className="combined-shape" src={combinedShape} alt=""/>
     </div>
   );
 }
