@@ -6,7 +6,14 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
+    <div
+    style={{
+        position: 'absolute', left: '50%', top: '50%',
+        transform: 'translate(-50%, -50%)'
+    }}
+    >
     <Main />
+  </div>
   </React.StrictMode>,
   document.getElementById('root')
 );
