@@ -1,5 +1,5 @@
 .i-phone-x-or-newer {
-    align-items: center;
+    // align-items: center;
     display: flex;
     height: 44px;
     overflow: hidden;
@@ -42,6 +42,8 @@
     height: 12px;
     margin-top: 1.42px;
     width: 29px;
+    position: absolute;
+    left: 25px;
 }
 
 .NotificationBar {
@@ -94,7 +96,8 @@
 .bar-icons {
     display: flex;
     width: 50px;
-    position: relative;
+    left: 295px;
+    position: absolute;
     justify-content: space-between;
     align-items: center;
 }

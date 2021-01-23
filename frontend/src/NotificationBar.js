@@ -19,9 +19,9 @@ function IPhoneXorNewer(props) {
   return (
     <div className="i-phone-x-or-newer">
       <img className="x941" src={x941} alt=""/>
-      <div className="overlap-group">
-        <img className="notch" src={notch} alt=""/>
-      </div>
+      {/*<div className="overlap-group">*/}
+      {/*  <img className="notch" src={notch} alt=""/>*/}
+      {/*</div>*/}
       <div className="bar-icons row">
           <img className="signal-bars" src={mobileSignal} alt=""/>
           <img className="wifi" src={wifi} alt=""/>
