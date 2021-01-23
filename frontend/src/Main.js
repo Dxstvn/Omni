@@ -47,24 +47,26 @@ const logInText = (
 export default class Main extends Component {
   constructor(props) {
     super(props);
-    const homePage = (<>
-        <NotificationBar />
-        <div className='screen'>
-            <div className='screen-omni-logo'>{omniLogo}</div>
-            <img className="home-gif" src={homeGif} />
-            <p className='screen-text'>
-                Lorem ipsum dolor sit amet,  consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
-            </p>
-            <a className='screen-sign-up' href={'/home'}>
-                {signUpText}
-                <img className='screen-sign-up-box' src={"https://anima-uploads.s3.amazonaws.com/projects/6003bcb01a17443328fd7f8d/releases/60052d05bc4afa862d2087ee/img/vector-5@2x.svg"} alt=""/>
-            </a>
-            <a className='screen-log-in' href={'/home'}>
-                {logInText}
-                <svg className='screen-log-in-box' src={"https://anima-uploads.s3.amazonaws.com/projects/6003bcb01a17443328fd7f8d/releases/60052d05bc4afa862d2087ee/img/vector-5@2x.svg"} />
-            </a>
+    const homePage = (
+        <div className="Main">
+            <NotificationBar className="overlayed-notification-bar"/>
+            <div className='screen'>
+                <div className='screen-omni-logo'>{omniLogo}</div>
+                <img className="home-gif" src={homeGif} />
+                <p className='screen-text'>
+                    Lorem ipsum dolor sit amet,  consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+                </p>
+                <a className='screen-sign-up' href={'/home'}>
+                    {signUpText}
+                    <img className='screen-sign-up-box' src={"https://anima-uploads.s3.amazonaws.com/projects/6003bcb01a17443328fd7f8d/releases/60052d05bc4afa862d2087ee/img/vector-5@2x.svg"} alt=""/>
+                </a>
+                <a className='screen-log-in' href={'/home'}>
+                    {logInText}
+                    <svg className='screen-log-in-box' src={"https://anima-uploads.s3.amazonaws.com/projects/6003bcb01a17443328fd7f8d/releases/60052d05bc4afa862d2087ee/img/vector-5@2x.svg"} />
+                </a>
+            </div>
         </div>
-    </>);
+    );
     this.state = {
       home: homePage,
     };

@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Main from './Main';
 import reportWebVitals from './reportWebVitals';
+import phoneBezel from '../assets/phone_bezel.png'
 
 ReactDOM.render(
   <React.StrictMode>

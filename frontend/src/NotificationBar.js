@@ -1,5 +1,7 @@
 import React from "react";
 import './NotificationBar.css';
+import phoneBezel from '../assets/phone_bezel.png';
+import phoneCamera from '../assets/phone_camera.png';
 
 const iPhoneXorNewerData = {
   x941: "https://anima-uploads.s3.amazonaws.com/projects/6003bda18e67c2318c5e088e/releases/6003bedd1a17443328fd7f8e/img/9-41@2x.svg",
@@ -35,17 +37,22 @@ function IPhoneXorNewer(props) {
 }
 
 export default function NotificationBar() {
-  return (<>
-      <div className="NotificationBar">
-          <IPhoneXorNewer
-              x941={iPhoneXorNewerData.x941}
-              notch={iPhoneXorNewerData.notch}
-              mobileSignal={iPhoneXorNewerData.mobileSignal}
-              wifi={iPhoneXorNewerData.wifi}
-              overlapGroup1={iPhoneXorNewerData.overlapGroup1}
-              rectangle={iPhoneXorNewerData.rectangle}
-              combinedShape={iPhoneXorNewerData.combinedShape}
-          />
+  return (
+      <div className='phone'>
+          <div className='dark-screen'></div>
+          <img className='phone-bezel' src={phoneBezel} />
+          <img className='phone-camera' src={phoneCamera} />
+          <div className="NotificationBar">
+              <IPhoneXorNewer
+                  x941={iPhoneXorNewerData.x941}
+                  notch={iPhoneXorNewerData.notch}
+                  mobileSignal={iPhoneXorNewerData.mobileSignal}
+                  wifi={iPhoneXorNewerData.wifi}
+                  overlapGroup1={iPhoneXorNewerData.overlapGroup1}
+                  rectangle={iPhoneXorNewerData.rectangle}
+                  combinedShape={iPhoneXorNewerData.combinedShape}
+              />
+          </div>
       </div>
-  </>);
+  );
 }

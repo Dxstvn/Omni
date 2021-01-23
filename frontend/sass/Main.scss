@@ -2,6 +2,8 @@
   background-color:black;
   width: 375px;
   height: 812px;
+  boxShadow: "3px 9px 3px #9E9E9E";
+  border-radius: 40px;
 }
 
 .home-gif {
@@ -27,12 +29,15 @@
   width: 60px;
 }
 
+.overlayed-notification-bar {
+  position: absolute;
+  top: 0;
+}
+
 .screen {
   display: flex;
   position: relative;
   flex-direction: column;
-  height: 737px;
-  width: 375px;
 
   &-omni-logo {
     position: absolute;

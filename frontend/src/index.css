@@ -5,6 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #1E1E1E;
+  /*background-image: url("../assets/phone_bezel.png");*/
+  /*background-repeat: no-repeat, repeat;*/
+  /*background-origin: content-box;*/
 }
 
 code {

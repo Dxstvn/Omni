@@ -45,9 +45,21 @@
 }
 
 .NotificationBar {
-    background: black;
+    // background: black;
     width: 375px;
     display: flex;
+    border-radius: 40px 40px 0 0;
+}
+
+.dark-screen {
+    background-color:black;
+    width: 384px;
+    height: 820px;
+    top: -5px;
+    boxShadow: "3px 9px 3px #9E9E9E";
+    border-radius: 40px;
+    position: absolute;
+    z-index: -1;
 }
 
 .battery {
@@ -85,4 +97,17 @@
     position: relative;
     justify-content: space-between;
     align-items: center;
+}
+
+.phone-bezel {
+    position: absolute;
+    left: -109.9px;
+    top: -26px;
+}
+
+.phone-camera {
+    position: absolute;
+    left: -109.9px;
+    top: -26px;
+    z-index: 9998!important;
 }
