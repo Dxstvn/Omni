@@ -1,4 +1,4 @@
-import './Main.css';
+import './HomePage.css';
 import Header from './header-component';
 import Midpage from './midpage-component';
 import React, { Component } from 'react';
@@ -10,7 +10,7 @@ export default class HomePage extends Component {
 
   render() {
     return (
-        <div className="background">
+        <div className="Main">
             <Header />
             <Midpage />
         </div>

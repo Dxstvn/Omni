@@ -1,0 +1,23 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "watch",
+			"path": "frontend/",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "watch-webpack",
+			"detail": "webpack --watch"
+		},
+		{
+			"type": "npm",
+			"script": "watch-scss",
+			"path": "frontend/",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "watch-scss",
+			"detail": "sass --watch sass:src"
+		}
+	]
+}

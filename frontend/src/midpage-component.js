@@ -1,6 +1,6 @@
 import React from "react";
 import './midpage-component.css';
-import Info from './InfoIcon-component';
+import InfoShopPlay from './InfoShopPlay';
 import ReactPlayer from 'react-player';
 
  
@@ -25,7 +25,7 @@ function Midpage() {
         <br />
         you’ve never anticipated with PlayStation 5
     </p>
-    <Info />
+    <InfoShopPlay />
     </>)
   }
 

@@ -3,12 +3,6 @@
   height: 136px;
 }
 
-.combined-shape {
-  height: 4px;
-  margin-top: 2px;
-  width: 2px;
-}
-
 .i-phone-x-or-newer {
   align-items: center;
   display: flex;
@@ -18,11 +12,9 @@
   width: 375px;
 }
 
-.mobile-signal {
+.signal-bars {
   height: 12px;
-  left: 215px;
-  position: absolute;
-  top: 19px;
+  position: relative;
   width: 18px;
 }
 
@@ -43,27 +35,10 @@
   width: 233px;
 }
 
-.overlap-group1 {
-  align-items: flex-end;
-  background-size: 100% 100%;
-  display: flex;
-  height: 12px;
-  margin-left: 4px;
-  margin-top: 2px;
-  min-width: 22px;
-  padding: 2px 2px;
-}
-
-.rectangle {
-  height: 8px;
-  width: 18px;
-}
-
 .wifi {
   height: 12px;
-  margin-left: 4px;
-  margin-top: 1.63px;
   width: 16px;
+  position: relative;
 }
 
 .x941 {
@@ -72,36 +47,45 @@
   width: 29px;
 }
 
-.search-vector {
-  position: absolute;
-  height: 16.9299373627px;
-  width: 15.5599851608px;
-  left: 20.83984375px;
-  top: 62.3500976563px;
-  border-radius: 0px;
-}
-
-.omni-group {
-  position: absolute;
-  height: 16.5px;
-  width: 55.4399986267px;
-  left: 160px;
-  top: 62px;
-  border-radius: 0px;
-}
-
-.person-vector {
-  position: absolute;
-  height: 19.3000030518px;
-  width: 19.3000030518px;
-  left: 337.7001953125px;
-  top: 60.4997558594px;
-  border-radius: 0px;
-}
-
 .NotificationBar {
   background: black;
   width: 375px;
+  display: flex;
+}
+
+.battery {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+}
+.battery-box {
+  justify-content: space-between;
+  background-size: 100% 100%;
+  display: flex;
+  height: 12px;
+  margin-left: 4px;
+  margin-top: 2px;
+  min-width: 22px;
+  padding: 2px 2px;
+}
+.battery-fill {
+  height: 8px;
+  width: 18px;
+}
+.battery-stub {
+  height: 4px;
+  margin-top: 2px;
+  width: 2px;
+}
+
+.bar-icons {
+  display: flex;
+  flex-direction: row;
+  width: 50px;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /*# sourceMappingURL=NotificationBar.css.map */
