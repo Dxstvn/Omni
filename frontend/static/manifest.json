@@ -1,8 +1,9 @@
 {
   "0.4a88b1e7a337bbd023a5.js": "0.4a88b1e7a337bbd023a5.js",
-  "main.js": "main.b9682017210297e644de.js",
-  "vendors~main.js": "vendors~main.f852b3c5d1330c2691f2.js",
-  "assets/phone_bezel.png": "assets/phone_bezel.png",
-  "assets/phone_camera.png": "assets/phone_camera.png",
-  "assets/rpreplay-final1610763893-1@1x.gif": "assets/rpreplay-final1610763893-1@1x.gif"
+  "main.js": "main.af8e7ea550e8c6425711.js",
+  "vendors~main.js": "vendors~main.06b4c956f049b2625abe.js",
+  "../templates/index.html": "../templates/index.html",
+  "/assets/phone_bezel.png": "/assets/phone_bezel.png",
+  "/assets/phone_camera.png": "/assets/phone_camera.png",
+  "/assets/rpreplay-final1610763893-1@1x.gif": "/assets/rpreplay-final1610763893-1@1x.gif"
 }

@@ -6,6 +6,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #1E1E1E;
+  /*background-image: radial-gradient(*/
+  /*      circle,*/
+  /*      transparent 160px,*/
+  /*      rgba(0, 0, 0, 0.85) 200px*/
+  /*);*/
   /*background-image: url("../assets/phone_bezel.png");*/
   /*background-repeat: no-repeat, repeat;*/
   /*background-origin: content-box;*/

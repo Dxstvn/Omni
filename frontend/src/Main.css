@@ -29,11 +29,6 @@
   width: 60px;
 }
 
-.overlayed-notification-bar {
-  position: absolute;
-  top: 0;
-}
-
 .screen {
   display: flex;
   position: relative;
@@ -67,6 +62,10 @@
   width: 322px;
   top: 622px;
   left: 30px;
+  transition: background-color 0.2s ease;
+}
+.screen-sign-up:hover {
+  background-color: wheat !important;
 }
 .screen-sign-up-box {
   position: absolute;
@@ -83,6 +82,10 @@
   width: 322px;
   top: 672px;
   left: 30px;
+  transition: background-color 0.2s ease;
+}
+.screen-log-in:hover {
+  background-color: #1c1c1c !important;
 }
 .screen-log-in-box {
   position: absolute;

@@ -49,7 +49,7 @@ export default class Main extends Component {
     super(props);
     const homePage = (
         <div className="Main">
-            <NotificationBar className="overlayed-notification-bar"/>
+            <NotificationBar />
             <div className='screen'>
                 <div className='screen-omni-logo'>{omniLogo}</div>
                 <img className="home-gif" src={homeGif} />
@@ -58,7 +58,7 @@ export default class Main extends Component {
                 </p>
                 <a className='screen-sign-up' href={'/home'}>
                     {signUpText}
-                    <img className='screen-sign-up-box' src={"https://anima-uploads.s3.amazonaws.com/projects/6003bcb01a17443328fd7f8d/releases/60052d05bc4afa862d2087ee/img/vector-5@2x.svg"} alt=""/>
+                    <img className='screen-sign-up-box' src={"https://anima-uploads.s3.amazonaws.com/projects/6003bcb01a17443328fd7f8d/releases/60052d05bc4afa862d2087ee/img/vector-5@2x.svg"} />
                 </a>
                 <a className='screen-log-in' href={'/home'}>
                     {logInText}

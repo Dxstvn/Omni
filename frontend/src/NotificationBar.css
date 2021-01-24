@@ -37,10 +37,11 @@
 
 .x941 {
   height: 12px;
-  margin-top: 1.42px;
-  width: 29px;
+  width: 50px;
   position: absolute;
-  left: 25px;
+  left: 28px;
+  top: 10px;
+  color: white;
 }
 
 .NotificationBar {
@@ -54,6 +55,7 @@
   width: 384px;
   height: 820px;
   top: -5px;
+  left: -5px;
   boxShadow: "3px 9px 3px #9E9E9E";
   border-radius: 40px;
   position: absolute;
@@ -77,8 +79,12 @@
   padding: 2px 2px;
 }
 .battery-fill {
-  height: 100%;
-  width: 100%;
+  align-self: center;
+  justify-self: flex-start;
+  height: 90%;
+  width: 90%;
+  background-color: #08FF00;
+  border-radius: 20%;
 }
 .battery-stub {
   height: 4px;

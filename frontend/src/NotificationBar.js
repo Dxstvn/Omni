@@ -1,7 +1,22 @@
-import React from "react";
+import React, { Component } from 'react';
 import './NotificationBar.css';
 import phoneBezel from '../assets/phone_bezel.png';
 import phoneCamera from '../assets/phone_camera.png';
+import Clock from 'react-live-clock';
+
+class RealTimeClock extends Component {
+    constructor(props) {
+        super(props);
+    }
+    render() {
+        return (
+            <div className="x941">
+                <Clock format={'h:mm'} ticking={true} timezone={'US/Eastern'} />
+                <Clock format={'A'} ticking={true} timezone={'US/Eastern'} />
+            </div>
+        );
+    }
+}
 
 const iPhoneXorNewerData = {
   x941: "https://anima-uploads.s3.amazonaws.com/projects/6003bda18e67c2318c5e088e/releases/6003bedd1a17443328fd7f8e/img/9-41@2x.svg",
@@ -18,7 +33,8 @@ function IPhoneXorNewer(props) {
 
   return (
     <div className="i-phone-x-or-newer">
-      <img className="x941" src={x941} alt=""/>
+      <RealTimeClock />
+      {/*<img className="x941" src={x941} alt=""/>*/}
       {/*<div className="overlap-group">*/}
       {/*  <img className="notch" src={notch} alt=""/>*/}
       {/*</div>*/}
@@ -27,7 +43,7 @@ function IPhoneXorNewer(props) {
           <img className="wifi" src={wifi} alt=""/>
           <div className="battery row">
               <div className="battery-box" style={{ backgroundImage: `url(${overlapGroup1})` }}>
-                <img className="battery-fill" src={rectangle} alt=""/>
+                <div className="battery-fill" />
               </div>
               <img className="battery-stub" src={combinedShape} alt=""/>
           </div>
@@ -40,8 +56,8 @@ export default function NotificationBar() {
   return (
       <div className='phone'>
           <div className='dark-screen'></div>
-          <img className='phone-bezel' src={phoneBezel} />
-          <img className='phone-camera' src={phoneCamera} />
+          <img className='phone-bezel' src={phoneBezel} draggable={false}/>
+          {/*<img className='phone-camera' src={phoneCamera} />*/}
           <div className="NotificationBar">
               <IPhoneXorNewer
                   x941={iPhoneXorNewerData.x941}
