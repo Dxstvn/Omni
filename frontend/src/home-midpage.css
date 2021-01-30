@@ -1,0 +1,61 @@
+.container {
+  width: 300px;
+  height: 200px;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+.container-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.sony-group {
+    position: absolute;
+    height: 27.740245819091797px;
+    width: 158.00991821289062px;
+    left: 21.43994140625px;
+    top: 284.459716796875px;
+    border-radius: 0px;
+}
+.plus {
+    position: absolute;
+    height: 13.6300048828125px;
+    width: 13.6300048828125px;
+    left: 185.8701171875px;
+    top: 277.739990234375px;
+    border-radius: 0px;
+}
+.play-has-no-limits {
+  position: absolute;
+  width: 161px;
+  height: 23px;
+  left: 22px;
+  top: 324.73px;
+
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 23px;
+  /* identical to box height */
+
+  color: #FFFFFF;
+}
+.unleash-new {
+  position: absolute;
+  width: 308px;
+  height: 38px;
+  left: 22px;
+  top: 365.73px;
+
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #FFFFFF;
+}
+

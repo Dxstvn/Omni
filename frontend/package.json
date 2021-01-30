@@ -15,6 +15,7 @@
     "react-scripts": "4.0.1",
     "sass": "^1.32.4",
     "svg-inline-loader": "^0.8.2",
+    "swiper": "^6.4.8",
     "web-vitals": "^0.2.4"
   },
   "scripts": {

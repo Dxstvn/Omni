@@ -3,6 +3,7 @@ import NotificationBar from './NotificationBar';
 import React, { Component } from 'react';
 import HomePage from "./HomePage";
 import homeGif from '../assets/rpreplay-final1610763893-1@1x';
+import Carousel from './Carousel';
 // eslint-disable-next-line
 import { BrowserRouter as Router, Switch, Route, Link, Redirect} from "react-router-dom";
 
@@ -77,6 +78,7 @@ export default class Main extends Component {
       <Switch>
         <Route exact path='/'>{this.state.home}</Route>
         <Route path='/home' component={HomePage}/>
+        <Route path='/carousel' component={Carousel}/>
       </Switch>
     </Router>);
   }
